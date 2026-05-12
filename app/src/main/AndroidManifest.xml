@@ -12,6 +12,10 @@
         android:theme="@style/Theme.Definitiva">
 
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".SecondaryActivity"
             android:exported="false" />
 
@@ -21,6 +25,7 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
